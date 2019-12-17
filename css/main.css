@@ -3555,4 +3555,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   
   width: 100px;
 }
+
+.nav-menu a {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+.nav-menu a:hover{
+  /* background-color:#fff; */
+  color:#000000;
+  border-bottom:.5px solid rgb(0, 0, 0);
+ 
+}
+.nav-menu a:hover,.nav-menu a:active{
+  font-family: monospace;
+  font-size: 125%;
+}
+
  
