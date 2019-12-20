@@ -1959,7 +1959,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(151, 152, 167, 0.9);
+  background: rgba(151, 152, 167, 0.26);
   transition: all 0.5s;
 }
 
