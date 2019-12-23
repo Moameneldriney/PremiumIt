@@ -1,4 +1,4 @@
-<!DOCTYPE html>           
+<!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
 <head>
@@ -29,43 +29,54 @@
 	<link rel="stylesheet" href="css/hexagons.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css" id="lnagLink">
 </head>
 
 <body>
+	    <!-- Start arrow -->
+		<div class="up">
+				<a href="#">
+					<i class="fa fa-arrow-up" id="goup"></i>
+				</a>
+			</div>
+		
+			<!-- End arrow -->
+
 	<header id="header" id="home">
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" style="width: 250px;"/></a>
+					<a href="index.html"><img src="img/logo.png" alt="" title="" style="width: 250px;" /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li class="menu-active"><a href="index.html">Home</a></li>
-						<li><a href="about.html" target="_blanck" >About Us</a></li>
-						<li><a href="services.html" target="_blanck">Services</a></li>
-						<li><a href="products.html" target="_blanck">Products</a></li>
-						<li class="menu-has-children" target="_blanck" ><a href="">Blog</a>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="Projects.html">Projects</a> </li>
+
+
+						<!-- <li class="menu-has-children"    ><a href="">Blog</a>
 							<ul>
-								<li><a href="blog-home.html" target="_blanck" >Blog Home</a></li>
-								<li><a href="blog-single.html" target="_blanck" >Blog Single</a></li>
-								<li><a href="blog-home.html" target="_blanck" >Blog Home</a></li>
-								<li><a href="blog-single.html" target="_blanck" >Blog Single</a></li>
+								<li><a href="blog-home.html"    >Blog Home</a></li>
+								<li><a href="blog-single.html"    >Blog Single</a></li>
+								<li><a href="blog-home.html"    >Blog Home</a></li>
+								<li><a href="blog-single.html"    >Blog Single</a></li>
 								<li class="menu-has-children"><a href="">Level 2</a>
 									<ul>
-										<li><a href="elements.html" target="_blanck" >Elements page</a></li>
+										<li><a href="elements.html"    >Elements page</a></li>
 										
-										<li><a href="product-details.html" target="_blanck" >product-details page</a></li>
+										<li><a href="Projects-details.html"    >product-details page</a></li>
 									</ul>
 								</li>
 							
 							</ul>
-						</li>
+						</li> -->
 						<li><a href="contact.html">Contact</a></li>
-						<li class="menu-has-children"><a href="#">language</a>
+						<li class="menu-has-children"><a href="#"><i class="fa fa-globe"></i></a>
 							<ul>
-								<li><a href="#" target="#" >Arabic</a></li>
-								<li><a href="#" target="#" >English</a></li>
+								<li><a href="#" target="#"  onclick="changeLang('ar')">Arabic</a></li>
+								<li><a href="#" target="#"  onclick="changeLang('en')">English</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -83,7 +94,7 @@
 					<h1>
 						Improved <br>
 						Production level <br>
-						with the systems 
+						with the systems
 					</h1>
 					<p class="text-white text-uppercase">
 						Everyone wants the innovation through the systems
@@ -121,7 +132,7 @@
 							<p>
 								Who are in extremely love with eco friendly system.
 							</p>
-							<a href="blog-single.html" target="_blanck"  class="primary-btn text-uppercase">View Details</a>
+							<a href="Projects-details.html" class="primary-btn text-uppercase">View Details</a>
 						</div>
 					</div>
 				</div>
@@ -135,7 +146,7 @@
 							<p>
 								Who are in extremely love with eco friendly system.
 							</p>
-							<a href="blog-single.html" target="_blanck"  class="primary-btn text-uppercase">View Details</a>
+							<a href="Projects-details.html" class="primary-btn text-uppercase">View Details</a>
 						</div>
 					</div>
 				</div>
@@ -149,7 +160,7 @@
 							<p>
 								Who are in extremely love with eco friendly system.
 							</p>
-							<a href="blog-single.html" target="_blanck" class="primary-btn text-uppercase">View Details</a>
+							<a href="Projects-details.html" class="primary-btn text-uppercase">View Details</a>
 						</div>
 					</div>
 				</div>
@@ -163,7 +174,7 @@
 							<p>
 								Who are in extremely love with eco friendly system.
 							</p>
-							<a href="blog-single.html" target="_blanck" class="primary-btn text-uppercase">View Details</a>
+							<a href="Projects-details.html" class="primary-btn text-uppercase">View Details</a>
 						</div>
 					</div>
 				</div>
@@ -171,62 +182,6 @@
 		</div>
 	</section>
 	<!-- End products Area -->
-
-	<!-- Start home-about Area -->
-	<section class="home-about-area">
-		<div class="container-fluid">
-			<div class="row align-items-center">
-				<div class="col-lg-6 home-about-left no-padding">
-					<img class="mx-auto d-block img-fluid" src="img/it4.jpg" alt="">
-				</div>
-				<div class="col-lg-6 home-about-right no-padding">
-					<h1>Globally Connected <br>
-						by Large Network</h1>
-					<h5>
-						We are here to listen from you deliver exellence
-					</h5>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua.Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur
-						adipisicing elit, sed do eiusmod tempor.
-					</p>
-					<a class="primary-btn text-uppercase" href="#">Get Details</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End home-about Area -->
-
-
-	<!-- Start about-video Area -->
-	<section class="about-video-area section-gap">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6 about-video-left">
-					<h6 class="text-uppercase">Brand new app to blow your mind</h6>
-					<h1>
-						We’ve made a life <br>
-						that will change you
-					</h1>
-					<p>
-						<span>We are here to listen from you deliver exellence</span>
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
-						labore et dolore magna aliqua.
-					</p>
-					<a class="primary-btn" href="#">Get Started Now</a>
-				</div>
-				<div class="col-lg-6 about-video-right justify-content-center align-items-center d-flex relative">
-					<div class="overlay overlay-bg"></div>
-					<a class="play-btn" target="_blanck"  href="https://www.youtube.com/watch?v=yF4Fip9rvS8"><img
-							class="img-fluid mx-auto"  src="img/play-btn.png" alt=""></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End about-video Area -->
-
 
 	<!-- Start feature Area -->
 	<section class="feature-area section-gap">
@@ -317,7 +272,163 @@
 		</div>
 	</section>
 	<!-- End feature Area -->
+	<!-- Start blog Area -->
+	<section class="blog-area section-gap">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-12 pb-40 header-text text-center">
+					<h1 class="pb-10">Latest News from our Blog</h1>
+					<p>
+						Who are in extremely love with eco friendly system.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 blog-left">
+					<div class="thumb">
+						<img class="img-fluid" src="img/itt.jpg" alt="">
+					</div>
+					<div class="detais">
 
+						<a href="#">
+							<h4>Portable latest Fashion for young women</h4>
+						</a>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore.
+						</p>
+
+						<p class="date">31st January, 2018</p>
+						<ul class="tags">
+							<li><a href="Projects-details.html">view</a></li>
+							<li><a href="#"> Style of system </a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 blog-right">
+					<div class="thumb">
+						<img class="img-fluid" src="img/itt.jpg" alt="">
+					</div>
+					<div class="detais">
+
+						<a href="#">
+							<h4>Portable latest Fashion for young women</h4>
+						</a>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore.
+						</p>
+						
+						<p class="date">31st January, 2018</p>
+						<ul class="tags">
+								<li><a href="Projects-details.html">view</a></li>
+								<li><a href="#">Style of system</a></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End blog Area -->
+
+
+	<!-- Start home-about Area -->
+	<section class="home-about-area">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-lg-6 home-about-left no-padding">
+					<img class="mx-auto d-block img-fluid" src="img/it4.jpg" alt="">
+				</div>
+				<div class="col-lg-6 home-about-right no-padding">
+					<h1>Globally Connected <br>
+						by Large Network</h1>
+					<h5>
+						We are here to listen from you deliver exellence
+					</h5>
+					<p class="readmore3">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+					</p>
+					<!-- <a class="primary-btn text-uppercase" href="#">Get Details</a> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End home-about Area -->
+
+
+	<!-- Start about-video Area -->
+	<section class="about-video-area section-gap">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-lg-6 about-video-left">
+					<h6 class="text-uppercase">Brand new app to blow your mind</h6>
+					<h1>
+						We’ve made a life <br>
+						that will change you
+					</h1>
+					<p>
+						<span>We are here to listen from you deliver exellence</span>
+					</p>
+					<p class="readmore3">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut
+						labore et dolore magna aliqua.
+					</p>
+					<!-- <a class="primary-btn" href="#">Get Started Now</a> -->
+				</div>
+
+				<div class="col-lg-6 home-about-left no-padding">
+					<img class="mx-auto d-block img-fluid" src="img/it4.jpg" alt="">
+				</div>
+				<!-- <div class="col-lg-6 about-video-right justify-content-center align-items-center d-flex relative">
+					<div class="overlay overlay-bg"></div>
+					<a class="play-btn" href="https://www.youtube.com/watch?v=yF4Fip9rvS8"><img
+							class="img-fluid mx-auto" src="img/play-btn.png" alt=""></a>
+				</div> -->
+			</div>
+		</div>
+	</section>
+	<!-- End about-video Area -->
 
 	<!-- Start brand Area -->
 	<section class="brand-area pt-120">
@@ -343,62 +454,6 @@
 	</section>
 	<!-- End brand Area -->
 
-
-	<!-- Start blog Area -->
-	<section class="blog-area section-gap">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="col-md-12 pb-40 header-text text-center">
-					<h1 class="pb-10">Latest News from our Blog</h1>
-					<p>
-						Who are in extremely love with eco friendly system.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-6 blog-left">
-					<div class="thumb">
-						<img class="img-fluid" src="img/it1.jpg" alt="">
-					</div>
-					<div class="detais">
-						<ul class="tags">
-							<li><a href="#">view</a></li>
-							<li><a href="#"> Style of system </a></li>
-						</ul>
-						<a href="#">
-							<h4>Portable latest Fashion for young women</h4>
-						</a>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore.
-						</p>
-						<p class="date">31st January, 2018</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 blog-right">
-					<div class="thumb">
-						<img class="img-fluid" src="img/itt.jpg" alt="">
-					</div>
-					<div class="detais">
-						<ul class="tags">
-							<li><a href="#">view</a></li>
-							<li><a href="#">Style of system</a></li>
-						</ul>
-						<a href="#">
-							<h4>Portable latest Fashion for young women</h4>
-						</a>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore.
-						</p>
-						<p class="date">31st January, 2018</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End blog Area -->
-
 	<!-- start footer Area -->
 	<footer class="footer-area section-gap">
 		<div class="container">
@@ -416,9 +471,10 @@
 				</div>
 				<div class="col-lg-6  col-md-12">
 					<div class="single-footer-widget newsletter">
-							<div id = "box"> </div>
-							<button onclick="slideUp('box');">Slide Up</button>
-							
+						<div id="box"> </div>
+
+						 
+
 						<h6>Newsletter</h6>
 						<p>You can trust us. we only send promo offers, not a single spam.</p>
 						<div id="mc_embed_signup">
@@ -468,8 +524,7 @@
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					Copyright &copy;
 					<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
-					made with premium company  by <a href="https://sentry-is.com/"
-						target="_blank">premium</a>
+					made with premium company by <a href="https://sentry-is.com/" target="_blank">premium</a>
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 				<div class="col-lg-4 col-sm-12 footer-social">
@@ -501,7 +556,24 @@
 	<script src="js/jquery.counterup.min.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/mail-script.js"></script>
+	<script src="js/readmore.js"></script>
 	<script src="js/main.js"></script>
+
+
+	<script>
+
+
+
+		$(".readmore3").readmore({
+			speed: 500,
+			collapsedHeight: 200,
+			collapsedMoreHeight: 400, // Always bigger than collapsedHeigh. There isn't any control to that. Be careful.
+			moreLink: '<a class="primary-btn2" href="#">See More..</a>',
+			evenMoreLink: '<a class="primary-btn2" href="#">See More..</a>', // Add new label
+			lessLink: '<a class="primary-btn2" href="#">See Less..</a>'
+		});
+	</script>
+
 </body>
 
 </html>

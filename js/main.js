@@ -1,3 +1,23 @@
+window.onload = function () {
+  var lang = window.localStorage.getItem('lang');
+  if(lang != null){
+          changeLang(lang);
+  }
+}
+function changeLang(lang) {
+  window.localStorage.setItem("lang", lang);
+  if(lang == 'ar'){
+          document.getElementById('lnagLink').setAttribute('href', 'css/ar.css');
+  }else if(lang == 'en'){
+          document.getElementById('lnagLink').setAttribute('href', 'css/main.css');
+  }
+};
+
+
+
+
+
+
 
 $(document).ready(function(){
 	"use strict";
@@ -306,7 +326,27 @@ $(document).ready(function(){
         }
     });
 
-
+ /* Arrow*/
+ var myButton = document.getElementById('goup');
+ window.onscroll = function () {
+     
+     'use strict';
+     
+     if (window.pageYOffset >= 150)
+         {
+             
+             myButton.style.display = 'block';
+             
+         
+         } else {
+             
+             myButton.style.display = 'none';
+         }
+ };
+ 
+ $('.up').click(function(){
+     $('html, body').animate({scrollTop:0}, 'slow');
+ }); 
 
 
     //  Start Google map 
