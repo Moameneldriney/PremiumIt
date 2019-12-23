@@ -3710,3 +3710,140 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*End goup */
+
+
+/* -------------------------------------------------------------
+ */
+
+
+
+
+ /*home section*/
+.home{
+  background: url(../images/homebg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.home_skew_border{
+  position: relative;
+}
+.home_skew_border:after{
+  position: absolute;
+  left:0;
+  bottom:0;
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 86px solid #fff;
+  border-right: 680px solid transparent;
+
+}
+.home_skew_border:before{
+  position: absolute;
+  right:0;
+  bottom:0;
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 86px solid #fff;
+  border-left: 680px solid transparent;
+}
+.main_home{
+  padding-top: 250px;
+  padding-bottom: 250px;
+  display: block;
+}
+
+
+.main_home h1{
+  color: #fff;
+  margin-bottom:20px;
+}
+.main_home p{
+  color: #fff;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size:1.125rem;
+
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #e74c3c;
+}
+.slick-arrow{
+  background: #ddd;
+  color:#000;
+}
+.main_home_slider i{
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  color:#fff;
+  background: #e74c3c;
+}
+.main_home_slider i.nextprevleft{
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  color:rgb(255, 255, 255);
+  background: #313232;
+  float: left;
+  position: absolute;
+  z-index: 999;
+  top: 400px;
+  font-size:1.5rem;
+  transition: all 0.6s;
+  left:-60px;
+}
+.main_home_slider i.nextprevright{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  background: #313232;
+  float: right;
+  position: absolute;
+  z-index: 999;
+  top: 400px;
+  font-size:1.5rem;
+  transition: all 0.6s;
+  right: -50px;
+}
+.main_home_slider i.nextprevleft:hover{
+  color: #222;
+  background: #cec2c2;
+}
+.main_home_slider i.nextprevright:hover{
+  color: #222;
+    background: #cec2c2;
+}
+
+.primary-btn3:hover{
+  color: #fff;
+}
+
+
+.primary-btn3{
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 25px;
+  /* border: 1px solid black; */
+  background: #313232;
+  font-size: 18px;
+  margin: 0px 10px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+  font-family: Poppins;
+  box-shadow: 0px 7px 8px 6px #1312129c;
+}

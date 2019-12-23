@@ -343,13 +343,28 @@ $(document).ready(function(){
              myButton.style.display = 'none';
          }
  };
- 
+ -
  $('.up').click(function(){
      $('html, body').animate({scrollTop:0}, 'slow');
  }); 
 
+// --------------------------
 
-    //  Start Google map 
+// slick slider active 
+    $(".main_home_slider").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay:true,
+        autoplaySpeed:3000,
+        prevArrow:"<i class='fa fa-angle-left nextprevleft'></i>",
+        nextArrow:"<i class='fa fa-angle-right nextprevright'></i>"
+    });
+
+
+// ---------------------------
+   //  Start Google map 
 
             // When the window has finished loading create our google map below
 
