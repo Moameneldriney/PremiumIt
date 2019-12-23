@@ -3597,6 +3597,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
+  /* font-size: 125%; */
 }
 .nav-menu a:hover{
   /* background-color:#fff; */
