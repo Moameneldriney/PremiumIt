@@ -2663,6 +2663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   color: #fff;
+  padding: 0 20px;
 }
 
 .blog-area .detais .tags li:hover {

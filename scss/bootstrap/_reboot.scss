@@ -296,7 +296,14 @@ caption {
 }
 
 th {
-  // Matches default `<td>` alignment by inheriting from the `<body>`, or the
+  // Matches default `<td>` alignment by inheriting from the ` <body> <!-- Start arrow -->
+		<div class="up">
+				<a href="#">
+					<i class="fa fa-arrow-up" id="goup"></i>
+				</a>
+			</div>
+		
+			<!-- End arrow -->`, or the
   // closest parent with a set `text-align`.
   text-align: inherit;
 }
