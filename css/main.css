@@ -2370,8 +2370,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/fall.jpg) center;
-  background-size: cover;
+  /* background: url(../img/fall.jpg) center; */
+  /* background-size: cover; */
 }
 
 .banner-area .primary-btn , .banner-area .primary-btn2{
